@@ -2,6 +2,8 @@ package net.zuredragon.templatemod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.zuredragon.templatemod.item.ModItemGroups;
+import net.zuredragon.templatemod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class TemplateMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
