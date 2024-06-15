@@ -14,10 +14,12 @@ public class ModItems {
 
     public static final Item SILVERINGOT = registerItem("silveringot", new Item(new FabricItemSettings()));
     public static final Item RAWSILVER = registerItem("rawsilver", new Item(new FabricItemSettings()));
+    public static final Item SILVERNUGGET = registerItem("silvernugget", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(SILVERINGOT);
         entries.add(RAWSILVER);
+        entries.add(SILVERNUGGET);
     }
 
     private static Item registerItem(String name, Item item) {

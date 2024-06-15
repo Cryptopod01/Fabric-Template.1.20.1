@@ -17,10 +17,12 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.SILVERINGOT)).entries((displayContext, entries) -> {
                     entries.add(ModItems.RAWSILVER);
                     entries.add(ModItems.SILVERINGOT);
+                    entries.add(ModItems.SILVERNUGGET);
 
                     entries.add(ModBlocks.SILVERORE);
                     entries.add(ModBlocks.RAWSILVERBLOCK);
                     entries.add(ModBlocks.SILVERBLOCK);
+
 
                     }).build());
 
