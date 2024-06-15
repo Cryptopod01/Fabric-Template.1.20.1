@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "templatemod:rawsilverblock"
+    }
+  ],
+  "result": {
+    "item": "templatemod:rawsilver",
+    "count": 9
+  }
+}

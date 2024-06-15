@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pettern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "templatemod:rawsilver"
+    }
+  },
+  "result": {
+    "item": "templatemod:rawsilverblock"
+  }
+}
