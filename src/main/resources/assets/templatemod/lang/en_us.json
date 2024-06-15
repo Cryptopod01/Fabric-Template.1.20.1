@@ -2,5 +2,7 @@
   "item.templatemod.silveringot": "Silver Ingot",
   "item.templatemod.rawsilver": "Raw Silver",
 
+  "block.templatemod.silverore": "Silver Ore",
+
   "itemgroup.template": "Template Group"
 }

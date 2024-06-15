@@ -1,5 +1,6 @@
 package net.zuredragon.templatemod;
 
+import block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import net.zuredragon.templatemod.item.ModItemGroups;
@@ -14,6 +15,9 @@ public class TemplateMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

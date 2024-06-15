@@ -1,5 +1,6 @@
 package net.zuredragon.templatemod.item;
 
+import block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,7 +18,7 @@ public class ModItemGroups {
                     entries.add(ModItems.RAWSILVER);
                     entries.add(ModItems.SILVERINGOT);
 
-
+                    entries.add(ModBlocks.SILVERORE);
 
                     }).build());
 
