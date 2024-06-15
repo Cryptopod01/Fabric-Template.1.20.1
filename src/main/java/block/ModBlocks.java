@@ -15,6 +15,8 @@ import net.zuredragon.templatemod.TemplateMod;
 public class ModBlocks {
     public static final Block SILVERORE = registerBlock("silverore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).mapColor(MapColor.STONE_GRAY)));
+    public static final Block DEEPSLATESILVERORE = registerBlock("deepslatesilverore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE).mapColor(MapColor.DEEPSLATE_GRAY)));
     public static final Block RAWSILVERBLOCK = registerBlock("rawsilverblock",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.TERRACOTTA_CYAN)));
     public static final Block SILVERBLOCK = registerBlock("silverblock",
