@@ -14,7 +14,10 @@ import net.zuredragon.templatemod.TemplateMod;
 public class ModBlocks {
     public static final Block SILVERORE = registerBlock("silverore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-
+    public static final Block RAWSILVERBLOCK = registerBlock("rawsilverblock",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block SILVERBLOCK = registerBlock("silverblock",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
