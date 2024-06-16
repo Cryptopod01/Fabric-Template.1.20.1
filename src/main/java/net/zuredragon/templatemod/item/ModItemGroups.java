@@ -1,6 +1,6 @@
 package net.zuredragon.templatemod.item;
 
-import block.ModBlocks;
+import net.zuredragon.templatemod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
