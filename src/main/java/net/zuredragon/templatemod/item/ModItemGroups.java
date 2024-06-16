@@ -19,9 +19,6 @@ public class ModItemGroups {
                     entries.add(ModItems.SILVERINGOT);
                     entries.add(ModItems.SILVERNUGGET);
 
-
-                    entries.add(ModBlocks.SILVERORE);
-                    entries.add(ModBlocks.DEEPSLATESILVERORE);
                     entries.add(ModBlocks.RAWSILVERBLOCK);
                     entries.add(ModBlocks.SILVERBLOCK);
 
