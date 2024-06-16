@@ -5,6 +5,8 @@
 
   "block.templatemod.rawsilverblock": "Raw Silver Block",
   "block.templatemod.silverblock": "Silver Block",
+  "block.templatemod.deepslatesilverore": "Deepslate Silver Ore",
+  "block.templatemod.silverore": "Silver Ore",
 
   "itemgroup.template": "Template Group"
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "templatemod:rawsilverblock"
+          "name": "templatemod:silverblock"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "templatemod:blocks/rawsilverblock"
+  "random_sequence": "template:blocks/silverblock"
 }

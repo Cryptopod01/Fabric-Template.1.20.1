@@ -21,6 +21,8 @@ public class ModItemGroups {
 
                     entries.add(ModBlocks.RAWSILVERBLOCK);
                     entries.add(ModBlocks.SILVERBLOCK);
+                    entries.add(ModBlocks.DEEPSLATESILVERORE);
+                    entries.add(ModBlocks.SILVERORE);
 
 
                     }).build());

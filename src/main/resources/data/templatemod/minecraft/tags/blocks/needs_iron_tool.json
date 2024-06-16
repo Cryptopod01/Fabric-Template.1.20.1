@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "templatemod:rawsilverblock"
-  ]
+    "templatemod:rawsilverblock",
+    "templatemod:silverblock",
+    "templatemod:deepslatesilverore",
+    "templatemod:silverore"
+    ]
 }
