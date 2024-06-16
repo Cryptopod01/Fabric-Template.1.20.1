@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "templatemod:rawsilver"
+      "item": "templatemod:silvernugget"
     }
   },
   "result": {
-    "item": "templatemod:rawsilverblock"
+    "item": "templatemod:silveringot"
   }
 }
