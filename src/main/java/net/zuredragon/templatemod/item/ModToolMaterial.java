@@ -1,35 +1,32 @@
 package net.zuredragon.templatemod.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    SILVER(2, 502,7,5.5f,23,
-            () -> Ingredient.ofItems(ModItems.SILVERINGOT));
+    SILVERINGOT(500, 2, 7f, 2.5f, 23, () -> Ingredient.ofItems(ModItems.SILVERINGOT));
 
+    private final int durability;
     private final int miningLevel;
-    private final int itemDurability;
     private final float miningSpeed;
     private final float attackDamage;
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    ModToolMaterial(int durability, int miningLevel, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+        this.durability = durability;
         this.miningLevel = miningLevel;
-        this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
         this.attackDamage = attackDamage;
         this.enchantability = enchantability;
         this.repairIngredient = repairIngredient;
     }
 
-
     @Override
     public int getDurability() {
-        return this.itemDurability;
+        return this.durability;
     }
 
     @Override

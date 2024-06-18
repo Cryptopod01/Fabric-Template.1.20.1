@@ -26,5 +26,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAWSILVER, Models.GENERATED);
         itemModelGenerator.register(ModItems.SILVERINGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.SILVERNUGGET, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SILVERAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVERHOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVEPICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVERSHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVERSWORD, Models.HANDHELD);
     }
 }

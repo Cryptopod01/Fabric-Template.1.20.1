@@ -16,15 +16,15 @@ public class ModItems {
     public static final Item SILVERNUGGET = registerItem("silvernugget", new Item(new FabricItemSettings()));
 
     public static final Item SILVERAXE = registerItem("silveraxe",
-            new AxeItem(ModToolMaterial.SILVER, 9, 1f, new FabricItemSettings()));
-    public static final Item SILVERPICKAXE = registerItem("silverpickaxe",
-            new PickaxeItem(ModToolMaterial.SILVER, 4, 1.2f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.SILVERINGOT, 6.5f, 1, new FabricItemSettings()));
     public static final Item SILVERHOE = registerItem("silverhoe",
-            new HoeItem(ModToolMaterial.SILVER, 1, 3.5f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.SILVERINGOT, 1, 3.5f, new FabricItemSettings()));
+    public static final Item SILVEPICKAXE = registerItem("silverpickaxe",
+            new PickaxeItem(ModToolMaterial.SILVERINGOT, 4, 1.2f, new FabricItemSettings()));
     public static final Item SILVERSHOVEL = registerItem("silvershovel",
-            new ShovelItem(ModToolMaterial.SILVER, 4, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.SILVERINGOT, 4.5f, 1, new FabricItemSettings()));
     public static final Item SILVERSWORD = registerItem("silversword",
-            new SwordItem(ModToolMaterial.SILVER, 6, 1.6f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.SILVERINGOT, 6, 1.6f, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {

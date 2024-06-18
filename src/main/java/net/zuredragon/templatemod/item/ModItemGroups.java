@@ -21,7 +21,7 @@ public class ModItemGroups {
 
                     entries.add(ModItems.SILVERAXE);
                     entries.add(ModItems.SILVERHOE);
-                    entries.add(ModItems.SILVERPICKAXE);
+                    entries.add(ModItems.SILVEPICKAXE);
                     entries.add(ModItems.SILVERSHOVEL);
                     entries.add(ModItems.SILVERSWORD);
 
