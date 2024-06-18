@@ -3,8 +3,7 @@ package net.zuredragon.templatemod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -15,6 +14,18 @@ public class ModItems {
     public static final Item SILVERINGOT = registerItem("silveringot", new Item(new FabricItemSettings()));
     public static final Item RAWSILVER = registerItem("rawsilver", new Item(new FabricItemSettings()));
     public static final Item SILVERNUGGET = registerItem("silvernugget", new Item(new FabricItemSettings()));
+
+    public static final Item SILVERAXE = registerItem("silveraxe",
+            new AxeItem(ModToolMaterial.SILVER, 9, 1f, new FabricItemSettings()));
+    public static final Item SILVERPICKAXE = registerItem("silverpickaxe",
+            new PickaxeItem(ModToolMaterial.SILVER, 4, 1.2f, new FabricItemSettings()));
+    public static final Item SILVERHOE = registerItem("silverhoe",
+            new HoeItem(ModToolMaterial.SILVER, 1, 3.5f, new FabricItemSettings()));
+    public static final Item SILVERSHOVEL = registerItem("silvershovel",
+            new ShovelItem(ModToolMaterial.SILVER, 4, 1f, new FabricItemSettings()));
+    public static final Item SILVERSWORD = registerItem("silversword",
+            new SwordItem(ModToolMaterial.SILVER, 6, 1.6f, new FabricItemSettings()));
+
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(SILVERINGOT);

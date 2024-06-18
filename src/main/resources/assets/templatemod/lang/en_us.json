@@ -3,6 +3,12 @@
   "item.templatemod.rawsilver": "Raw Silver",
   "item.templatemod.silvernugget": "Silver Nugget",
 
+  "item.templatemod.silveraxe": "Silver Axe",
+  "item.templatemod.silverhoe": "Silver Hoe",
+  "item.templatemod.silverpickaxe": "Silver Pickaxe",
+  "item.templatemod.silvershovel": "Silver Shovel",
+  "item.templatemod.silversword": "Silver Sword",
+
   "block.templatemod.rawsilverblock": "Raw Silver Block",
   "block.templatemod.silverblock": "Silver Block",
   "block.templatemod.deepslatesilverore": "Deepslate Silver Ore",
