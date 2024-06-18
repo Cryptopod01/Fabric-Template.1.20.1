@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslatesilverore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "templatemod:deepslatesilverore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:silveringot_from_blasting_deepslatesilverore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslatesilverore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:silveringot_from_blasting_deepslatesilverore"
+    ]
+  },
+  "sends_telemetry_event": false
+}
