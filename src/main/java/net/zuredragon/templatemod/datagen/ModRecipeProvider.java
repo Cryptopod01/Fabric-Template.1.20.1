@@ -33,6 +33,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModBlocks.SILVERBLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SILVERNUGGET, RecipeCategory.DECORATIONS,
                 ModItems.SILVERINGOT);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SILVERINGOT, RecipeCategory.DECORATIONS,
+                ModItems.SILVERNUGGET);
 
     }
 }
