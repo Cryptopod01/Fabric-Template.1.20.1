@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    SILVERINGOT(500, 2, 7f, 2.5f, 23, () -> Ingredient.ofItems(ModItems.SILVERINGOT));
+    SILVERINGOT(500, 2, 1f, 0.5f, 23, () -> Ingredient.ofItems(ModItems.SILVERINGOT));
 
     private final int durability;
     private final int miningLevel;

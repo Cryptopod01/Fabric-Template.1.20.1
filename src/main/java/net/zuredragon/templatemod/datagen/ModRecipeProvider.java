@@ -36,7 +36,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModBlocks.SILVERBLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SILVERNUGGET, RecipeCategory.DECORATIONS,
                 ModItems.SILVERINGOT);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SILVERINGOT, RecipeCategory.DECORATIONS,
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.SILVERINGOT, RecipeCategory.MISC,
                 ModItems.SILVERNUGGET);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVERAXE, 1)
