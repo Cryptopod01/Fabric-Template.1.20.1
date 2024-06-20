@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.zuredragon.templatemod.item.ModItemGroups;
 import net.zuredragon.templatemod.item.ModItems;
+import net.zuredragon.templatemod.util.ModLootTableModifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +19,7 @@ public class TemplateMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModLootTableModifier.modifyLootTables();
 	}
 }

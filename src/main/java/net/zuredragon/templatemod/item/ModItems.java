@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.zuredragon.templatemod.TemplateMod;
+import net.zuredragon.templatemod.item.custom.ModArmorItem;
 
 public class ModItems {
 
@@ -29,7 +30,7 @@ public class ModItems {
 
 
     public static final Item SILVERHELMET = registerItem("silverhelmet",
-            new ArmorItem(ModArmorMaterial.SILVERINGOT, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterial.SILVERINGOT, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item SILVERCHESTPLATE = registerItem("silverchestplate",
             new ArmorItem(ModArmorMaterial.SILVERINGOT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item SILVERLEGGINGS = registerItem("silverleggings",
