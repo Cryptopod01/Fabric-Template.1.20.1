@@ -9,6 +9,11 @@
   "item.templatemod.silvershovel": "Silver Shovel",
   "item.templatemod.silversword": "Silver Sword",
 
+  "item.templatemod.silverhelmet": "Silver Helmet",
+  "item.templatemod.silverchestplate": "Silver Chestplate",
+  "item.templatemod.silverleggings": "Silver Leggings",
+  "item.templatemod.silverboots": "Silver Boots",
+
   "block.templatemod.rawsilverblock": "Raw Silver Block",
   "block.templatemod.silverblock": "Silver Block",
   "block.templatemod.deepslatesilverore": "Deepslate Silver Ore",

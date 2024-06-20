@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item RAWSILVER = registerItem("rawsilver", new Item(new FabricItemSettings()));
     public static final Item SILVERNUGGET = registerItem("silvernugget", new Item(new FabricItemSettings()));
 
+
     public static final Item SILVERAXE = registerItem("silveraxe",
             new AxeItem(ModToolMaterial.SILVERINGOT, 8f, -2.6f, new FabricItemSettings()));
     public static final Item SILVERHOE = registerItem("silverhoe",
@@ -25,6 +26,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.SILVERINGOT, 3.5f, -2.5f, new FabricItemSettings()));
     public static final Item SILVERSWORD = registerItem("silversword",
             new SwordItem(ModToolMaterial.SILVERINGOT, 5, -1.9f, new FabricItemSettings()));
+
+
+    public static final Item SILVERHELMET = registerItem("silverhelmet",
+            new ArmorItem(ModArmorMaterial.SILVERINGOT, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SILVERCHESTPLATE = registerItem("silverchestplate",
+            new ArmorItem(ModArmorMaterial.SILVERINGOT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SILVERLEGGINGS = registerItem("silverleggings",
+            new ArmorItem(ModArmorMaterial.SILVERINGOT, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SILVERBOOTS = registerItem("silverboots",
+            new ArmorItem(ModArmorMaterial.SILVERINGOT, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {

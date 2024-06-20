@@ -25,6 +25,11 @@ public class ModItemGroups {
                     entries.add(ModItems.SILVERSHOVEL);
                     entries.add(ModItems.SILVERSWORD);
 
+                    entries.add(ModItems.SILVERHELMET);
+                    entries.add(ModItems.SILVERCHESTPLATE);
+                    entries.add(ModItems.SILVERLEGGINGS);
+                    entries.add(ModItems.SILVERBOOTS);
+
                     entries.add(ModBlocks.RAWSILVERBLOCK);
                     entries.add(ModBlocks.SILVERBLOCK);
                     entries.add(ModBlocks.DEEPSLATESILVERORE);

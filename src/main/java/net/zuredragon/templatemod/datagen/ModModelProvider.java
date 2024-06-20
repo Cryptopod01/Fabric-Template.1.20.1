@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.zuredragon.templatemod.block.ModBlocks;
 import net.zuredragon.templatemod.item.ModItems;
 
@@ -32,5 +33,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SILVEPICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SILVERSHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SILVERSWORD, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVERHELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVERCHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVERLEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVERBOOTS));
     }
 }

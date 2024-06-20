@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "templatemod:silverhelmet",
+    "templatemod:silverchestplate",
+    "templatemod:silverleggings",
+    "templatemod:silverboots"
+  ]
+}
