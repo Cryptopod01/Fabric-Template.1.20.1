@@ -2,13 +2,19 @@ package net.zuredragon.templatemod.util;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.minecraft.loot.LootPool;
+import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.util.Identifier;
 import net.zuredragon.templatemod.item.ModItems;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ModLootTableModifier {
     private static Identifier ABANDONED_MINESHAFT_ID =
@@ -57,6 +63,9 @@ public class ModLootTableModifier {
             new Identifier("minecraft", "chests/village_toolsmith");
     private static Identifier VILLAGE_WEAPONSMITH_ID =
             new Identifier("minecraft", "chests/village_weaponsmith");
+
+    private static Identifier SUSPICIOUS_SAND_ID =
+            new Identifier("minecraft", "archaeology/desert_pyramid");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
@@ -334,6 +343,22 @@ public class ModLootTableModifier {
                 tableBuilder.pool(poolBuilder.build());
             }
 
+        });
+
+        LootTableEvents.REPLACE.register((resourceManager, lootManager, id, original, source) -> {
+            if (SUSPICIOUS_SAND_ID.equals(id)) {
+                List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(original.pools[0].entries));
+                entries.add(ItemEntry.builder(ModItems.RAWSILVER).build());
+                entries.add(ItemEntry.builder(ModItems.SILVERINGOT).build());
+                entries.add(ItemEntry.builder(ModItems.SILVERNUGGET).build());
+
+                LootPool.Builder pool = LootPool.builder().with(entries);
+                return LootTable.builder().pool(pool).build();
+
+            }
+
+
+            return null;
         });
     }
 }
